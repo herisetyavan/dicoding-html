@@ -1,0 +1,111 @@
+    body {
+      margin: 0;
+      padding: 0;
+    }
+     
+     li {
+           display: inline;
+       }
+
+     nav a {
+       font-size: 18px;
+    }
+        nav a:hover {
+       color: gold;
+    }
+
+        nav li {
+       display: inline;
+       margin-right: 20px;
+    }
+        nav {
+       background-color: #000;
+       padding: 8px;
+       position: sticky;
+       top: 0;
+    }
+
+        nav a {
+       font-size: 18px;
+       font-weight: 400;
+       text-decoration: none;
+       color: white;
+    }
+
+    .jumbotron {
+       font-size: 20px;
+       padding: 2px;
+       background-color: maroon;
+       text-align: center;
+       color: white;
+
+     }
+
+    #content {
+       float: left;
+       width: 70%;
+    }
+
+    h2 {
+       color: maroon;
+    }
+
+    .image {
+       width: 100%;
+       max-height: 400px;
+       object-fit: cover;
+      object-position: center;
+    }
+
+    .card {
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       border-radius: 5px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    aside {
+       float: right;
+       width: 30%;
+       padding-left: 50px;
+    }
+
+    * {
+       box-sizing: border-box;
+    }
+
+       main {
+       padding: 10px;
+       overflow: auto;
+    }
+
+    footer {
+       padding: 1px;
+       color: white;
+       background-color: maroon;
+       text-align: center;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 1000px) {
+       #content,
+       aside {
+           width: 100%;
+           padding: 0;
+       }
+    }
+
+    header {
+       display: inline;
+    }
+
+    .profile header {
+       text-align: center;
+    }
+
+    .profile img {
+       width: 200px;
+       border-radius: 100%;
+    }
+
+
